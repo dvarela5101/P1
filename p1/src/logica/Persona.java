@@ -16,7 +16,7 @@ public abstract class Persona {
 	}
 	
 	public abstract float calcularTMB() throws Exception;
-	public abstract boolean check();
+	protected abstract boolean check();
 		
 	
 

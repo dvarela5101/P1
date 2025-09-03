@@ -24,7 +24,7 @@ public class Mujer extends Persona {
 		
 	}
 	@Override 
-	public boolean check() 
+	protected boolean check() 
 	{
 		return  ((40 > this.peso || this.peso > 80) || (140 > this.altura || this.altura > 180) || this.edad <15 );
 		
